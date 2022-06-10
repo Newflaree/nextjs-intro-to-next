@@ -11,7 +11,9 @@ export const ActiveLink = ({ text, href }) => {
 
   return (
     <Link href={ href }>
-      <a style={ asPath === href ? style : null }>{ text }</a>
+      <a style={ asPath === href ? style : null }>
+        { text }
+      </a>
     </Link>
   )
 }
